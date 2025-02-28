@@ -1,6 +1,7 @@
 import os
 import tweepy
 from flask import Flask, request, render_template_string
+from dotenv import load_dotenv
 
 # Load API credentials from Replit Secrets
 load_dotenv()
